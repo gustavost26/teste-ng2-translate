@@ -9,7 +9,7 @@ import * as Platform from "platform";
 })
 export class AppComponent {
     constructor(private translate: TranslateService) {
-        this.translate.setDefaultLang('en');
-        this.translate.use(Platform.device.language.split('-')[0]);
+        this.translate.setDefaultLang('en'); //chage pt
+        //this.translate.use(Platform.device.language.split('-')[0]);
     }
 }
